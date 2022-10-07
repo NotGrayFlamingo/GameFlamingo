@@ -1,12 +1,6 @@
-<head>
-  <title>GameFlamingo - Main Menu</title>
-  <meta property="og:title" content="Your Title">
-  <meta name="twitter:title" content="Your Title">
+  <meta property="og:title" content="GameFlamingo Menu">
+  <meta name="description" content="Web based minigames similar to GamePigeon.">
+  <meta property="og:description" content="Web based minigames similar to GamePigeon.">
+  <meta property="og:image" content="https://i.imgur.com/ug8B923.png">
   
-  <meta name="description" content="Your Description">
-  <meta property="og:description" content="Your Description">
-  <meta name="twitter:description" content="Your Description">
-  
-  <meta property="og:image" content="img_url">
-  <meta name="twitter:image" content="img_url">
-</head>
+  (Add this under title in index.html after update.)
