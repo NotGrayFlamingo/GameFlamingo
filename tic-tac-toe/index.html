@@ -231,7 +231,6 @@ for (const provider of Object.values(providers)) scaffolding.addCloudProvider(pr
 scaffolding.addCloudProviderOverride("☁ Local Key", providers["local"] || null);
 scaffolding.addCloudProviderOverride("☁ redirect", providers["ws"] || null);
 scaffolding.addCloudProviderOverride("☁ url", providers["ws"] || null);
-scaffolding.addCloudProviderOverride("☁ room", providers["ws"] || null);
 scaffolding.addCloudProviderOverride("☁ Player 1 Cloud Key", providers["ws"] || null);
 scaffolding.addCloudProviderOverride("☁ Player 2 Cloud Key", providers["ws"] || null);
 scaffolding.addCloudProviderOverride("☁ eval", providers["ws"] || null);
@@ -241,6 +240,7 @@ scaffolding.addCloudProviderOverride("☁ Player 1 Online?", providers["ws"] || 
 scaffolding.addCloudProviderOverride("☁ Player 2 Online?", providers["ws"] || null);
 scaffolding.addCloudProviderOverride("☁ Player 2 Data", providers["ws"] || null);
 scaffolding.addCloudProviderOverride("☁ Player 1 Data", providers["ws"] || null);
+scaffolding.addCloudProviderOverride("☁ room id", providers["ws"] || null);
 };
 
       vm.setTurboMode(false);
