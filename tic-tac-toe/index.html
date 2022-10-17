@@ -226,7 +226,7 @@
 
       {const providers = {};
 providers.local = new Scaffolding.Cloud.LocalStorageProvider("cloudvariables:tictactoe-v0.6");
-providers.ws = new Scaffolding.Cloud.WebSocketProvider("wss://topaz-sugary-fin.glitch.me:3000", "tictactoe-v0.6");
+providers.ws = new Scaffolding.Cloud.WebSocketProvider("wss://34.203.214.30:3000", "tictactoe-v0.6");
 for (const provider of Object.values(providers)) scaffolding.addCloudProvider(provider);
 scaffolding.addCloudProviderOverride("☁ Local Key", providers["local"] || null);
 scaffolding.addCloudProviderOverride("☁ redirect", providers["ws"] || null);
