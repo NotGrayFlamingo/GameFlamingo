@@ -225,8 +225,8 @@
       scaffolding.setAccentColor("#ffffff");
 
       {const providers = {};
-providers.local = new Scaffolding.Cloud.LocalStorageProvider("cloudvariables:p4-@Tictactoe");
-providers.ws = new Scaffolding.Cloud.WebSocketProvider("wss://gameflamingo.glitch.me:443", "p4-@Tictactoe");
+providers.local = new Scaffolding.Cloud.LocalStorageProvider("cloudvariables:gameflamingo-tictactoe");
+providers.ws = new Scaffolding.Cloud.WebSocketProvider("wss://gameflamingo.glitch.me:443", "gameflamingo-tictactoe");
 for (const provider of Object.values(providers)) scaffolding.addCloudProvider(provider);
 scaffolding.addCloudProviderOverride("☁ Local Key", providers["local"] || null);
 scaffolding.addCloudProviderOverride("☁ redirect", providers["ws"] || null);
